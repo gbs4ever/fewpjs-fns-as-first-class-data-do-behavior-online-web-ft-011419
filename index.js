@@ -22,6 +22,5 @@ function handleClick(e) {
 // }
 /* Write your implementation of displayMessage() */
 displayMessage(saying){
-  elm = document.getElementById('greeting')
-elm.innerText = saying
+  document.getElementById('greeting').innerText = saying
 }
